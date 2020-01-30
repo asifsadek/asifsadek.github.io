@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Introduction To Dynamic Programming
+Author : Sadek Hossain Asif
+Date : 31 January 2020
 ---
-
-![_config.yml]
 ### What is Dynamic Programming ?
 
 Dynamic Programming refers to a very large class of algorithms. The idea is to break a large problem down (if possible) into incremental steps so that, at any given stage, optimal solutions are known to sub-problems. When the technique is applicable, this condition can be extended incrementally without having to alter previously computed optimal solutions to subproblems. Eventually the condition applies to all of the data and, if the formulation is correct, this together with the fact that nothing remains untreated gives the desired answer to the complete problem.
