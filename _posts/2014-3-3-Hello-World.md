@@ -1,10 +1,17 @@
 ---
 layout: post
-title: You're up and running!
+title: Introduction To Dynamic Programming
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
 ![_config.yml]({{ site.baseurl }}/images/config.png)
+### What is Dynamic Programming ?
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Dynamic Programming refers to a very large class of algorithms. The idea is to break a large problem down (if possible) into incremental steps so that, at any given stage, optimal solutions are known to sub-problems. When the technique is applicable, this condition can be extended incrementally without having to alter previously computed optimal solutions to subproblems. Eventually the condition applies to all of the data and, if the formulation is correct, this together with the fact that nothing remains untreated gives the desired answer to the complete problem.
+
+The simple example of dynamic programming is the solve of Fibbonacci Sequence which in <b>f(n) = F(n-1) + F(n-2) </b> Where F(0) = 0 & f(1) = 1 .
+
+#### Ways to solve this types of Problem :
+- Identify if it is a DP problem
+- Decide a state expression with least parameters or the recurrence relation like 
+- Formulate state relationship <b>f(n) = F(n-1) + F(n-2) </b>
+- Do tabulation (or add memoization)
